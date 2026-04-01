@@ -49,7 +49,7 @@ header nav a {
         rgba(7, 22, 41, 0.28) 0%,
         rgba(7, 22, 41, 0.48) 70%,
         rgba(7, 22, 41, 0.8) 100%
-    ), url("../images/background.png");
+    ), url("images/background.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
@@ -230,7 +230,7 @@ main section:nth-of-type(3) > div > div::after {
     bottom: auto;
     width: 100%;
     padding-bottom: 62.5%;
-    background-image: url('../images/play.png');
+    background-image: url('images/play.png');
     background-size: 64px 64px;
     background-repeat: no-repeat;
     background-position: center;
