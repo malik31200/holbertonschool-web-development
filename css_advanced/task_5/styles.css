@@ -216,6 +216,27 @@ main section:nth-of-type(3) > div {
     gap: 20px;
 }
 
+/* Card container for play button overlay */
+main section:nth-of-type(3) > div > div {
+    position: relative;
+}
+
+main section:nth-of-type(3) > div > div::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: auto;
+    width: 100%;
+    padding-bottom: 62.5%;
+    background-image: url('../images/play.png');
+    background-size: 64px 64px;
+    background-repeat: no-repeat;
+    background-position: center;
+    pointer-events: none;
+}
+
 /* one card */
 main section:nth-of-type(3) > div > div > div:first-of-type img {
     width: 30px;
