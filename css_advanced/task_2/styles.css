@@ -7,6 +7,7 @@ body {
 /* HEADER */
 header {
     position: absolute;
+    background: transparent;
     top: 35px;
     left: 0;
     width: 100%;
@@ -14,8 +15,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 171px;
+    padding: 0 150px;
     box-sizing: border-box;
+    height: 29px;
 }
 
 header a img {
@@ -34,6 +36,7 @@ header nav a {
     color: #ffffff;
     font-size: 12px;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 /* SECTION HERO */
@@ -44,15 +47,16 @@ header nav a {
     box-sizing: border-box;
     text-align: center;
     color: #ffffff;
-    background-image: linear-gradient(
-        to bottom,
-        rgba(7, 22, 41, 0.28) 0%,
-        rgba(7, 22, 41, 0.48) 70%,
-        rgba(7, 22, 41, 0.8) 100%
-    ), url("../images/background.png");
+    background-image: radial-gradient(
+        circle,
+        rgba(7, 22, 41, 0.3) 0%,
+        rgba(7, 22, 41, 0.7) 60%,
+        rgba(7, 22, 41, 1) 100%
+    ),
+    url("../images/background.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center;
     padding-top: 220px;
 }
 
